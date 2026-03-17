@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 550px;
+  height: 760px;
+  background-color: #f2f2f2;
+  margin: 0;
+  border: 2px solid black;
+}
+
+.calaulator {
+  width: 392px;
+  height: 392px;
+  background-color: #fff;
+  border-radius: 15px;
+  border: 2px solid black;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+#display {
+  width: 300px;
+  height: 50px;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: right;
+  font-size: 1.5rem;
+  border: none;
+  background-color: #ffeb3b;
+  border-radius: 8px;
+  color: #333;
+}
+.buttons {
+  width: 300px;
+  height: 300px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  
+}
+.button {
+    background-color: #03a9f4;
+    border-radius: 10px; 
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    color: white;
+}
+.button:hover {
+  background-color: #0288d1;
+  transform: scale(1.1);
+}
